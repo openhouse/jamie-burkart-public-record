@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/openhouse/jamie-burkart-public-record/schemas/record.schema.json",
+  "title": "Jamie Burkart public-source record",
+  "type": "object",
+  "required": [
+    "id", "title", "kind", "status", "visibility", "canonical_path",
+    "subject", "record_date", "practice", "project", "place",
+    "source_type", "source_home", "publication_state", "summary"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^record\\.[a-z0-9.-]+$" },
+    "kind": { "enum": ["canonical-reference", "public-source-record", "public-coverage-gap"] },
+    "visibility": { "const": "public-safe" },
+    "source_home": { "enum": ["canonical-external", "local-metadata-only"] },
+    "publication_state": { "enum": ["private-public-safe-candidate", "public-source-already-published", "human-review-required"] }
+  },
+  "additionalProperties": true
+}
