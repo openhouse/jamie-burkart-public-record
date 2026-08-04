@@ -1,0 +1,12 @@
+{
+  "name": "jamie-burkart-public-record",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "validate": "node tools/validate.mjs",
+    "evals": "node evals/run-evals.mjs",
+    "check": "npm run build && npm run validate && npm run evals"
+  }
+}

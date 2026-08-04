@@ -1,0 +1,40 @@
+{
+  "run_id": "2026-08-03-initial-hill-climb",
+  "candidate_scope": "library canonical records",
+  "candidate_fingerprint": "ff882202174c3f117af4e48a78c21c3d2ff2bea575be2459dcc7b3b9d54f1612",
+  "record_count": 12,
+  "deterministic_result": {
+    "status": "passed",
+    "records_validated": 12,
+    "relative_links_checked": true,
+    "canonical_home_checks": true,
+    "privacy_and_publication_boundaries_checked": true
+  },
+  "mutation_result": {
+    "status": "passed",
+    "detected": 12,
+    "injected": 12
+  },
+  "hill_climb": [
+    {
+      "failure_mode": "A protected working event transcript could be amplified as if it were a public verified source.",
+      "improvement": "Represented the 2025 Greenpoint item as a public-coverage gap and added mutations for occurrence and publication-state inflation."
+    },
+    {
+      "failure_mode": "Encounter narrative could outrun the public source record.",
+      "improvement": "Required every encounter gap to retain not-established-by-public-source and human-review-required states."
+    },
+    {
+      "failure_mode": "A photo field could inherit stale authorization or implied approval.",
+      "improvement": "Added a fail-closed photo state to records and a mutation that rejects automatic photo approval."
+    }
+  ],
+  "human_gates": [
+    "public repository visibility",
+    "quotation and reproduction rights",
+    "collective credit",
+    "photograph rights and consent",
+    "Knowledge Wiki interpretation",
+    "portfolio selection"
+  ]
+}
