@@ -10,6 +10,10 @@ Generated from canonical records.
 
 - [Jamie Burkart on CreateNYC and cultural funding](../library/practices/civic-cultural-organizing/public-statements/2018-03-16-createnyc-cultural-funding.md) — Official Council testimony on cultural funding, affordable community space, and implementation of the CreateNYC cultural plan.
 
+## cross-project-component-system
+
+- [Projects as a recomposable civic-cultural system](../library/practices/civic-cultural-organizing/recomposable-civic-cultural-systems/README.md) — Public-safe, evidence-tiered account of how technical modules, social protocols, public artifacts, and stewardship practices can be adapted across Jamie Burkart's projects.
+
 ## fair-rent-nyc
 
 - [Jamie Burkart on SBJSA and commercial-tenant protections](../library/practices/civic-cultural-organizing/public-statements/2018-10-22-sbjsa-commercial-rent.md) — Official Council testimony supporting commercial-tenant protections as a defense of neighborhood businesses and cultural spaces.

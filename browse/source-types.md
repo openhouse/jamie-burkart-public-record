@@ -12,6 +12,10 @@ Generated from canonical records.
 - [MIT Media Lab symposium encounter](../library/encounters/mit-media-lab/README.md) — Protected research and governed photo leads point toward an MIT Media Lab encounter, but the public event identity, date, and Jamie's role remain unresolved.
 - [Weibel Institute symposium encounter in Vienna](../library/encounters/vienna-weibel-institute/README.md) — Protected research points to a Vienna symposium and subsequent exchange, while public participation, wording, and relationship state remain unestablished.
 
+## exact-commit-public-knowledge-wiki-record
+
+- [Projects as a recomposable civic-cultural system](../library/practices/civic-cultural-organizing/recomposable-civic-cultural-systems/README.md) — Public-safe, evidence-tiered account of how technical modules, social protocols, public artifacts, and stewardship practices can be adapted across Jamie Burkart's projects.
+
 ## official-council-transcript
 
 - [Jamie Burkart on Cabaret Law oversight and the Office of Nightlife](../library/practices/civic-cultural-organizing/public-statements/2017-06-19-cabaret-law-and-office-of-nightlife.md) — Official Council transcript testimony connecting dance freedom, cultural-space safety, trust, and the repeal of discriminatory regulation.

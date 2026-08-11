@@ -10,6 +10,10 @@ Generated from canonical records.
 
 - [WOW List relational curation and participation practice](../library/practices/public-interest-technology/wow-list-relational-curation/README.md) — Public-safe account of how invitation, onboarding, editorial work, explainable discovery, and shared maintenance made WOW List socially operative.
 
+## distributed-new-york-city-and-kansas-city
+
+- [Projects as a recomposable civic-cultural system](../library/practices/civic-cultural-organizing/recomposable-civic-cultural-systems/README.md) — Public-safe, evidence-tiered account of how technical modules, social protocols, public artifacts, and stewardship practices can be adapted across Jamie Burkart's projects.
+
 ## greenpoint-brooklyn
 
 - [Greenpoint commercial-rent public-event source gap](../library/practices/civic-cultural-organizing/public-statements/2025-11-10-greenpoint-source-gap.md) — A working transcript exists in the issue archive, but public audio, attribution, and rights review are insufficient for promotion as a public source record here.

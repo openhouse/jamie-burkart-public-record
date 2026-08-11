@@ -106,11 +106,50 @@ function validateSundayDinnerWowListNycacSynergy(records) {
   return errors;
 }
 
+function validateRecomposableProjectSystem(records) {
+  const errors = [];
+  const record = records.find((item) => item.data.id === "record.practice.recomposable-civic-cultural-systems");
+  if (!record) return ["missing recomposable civic-cultural systems record"];
+
+  for (const required of [
+    "## Central finding",
+    "## Evidence tiers",
+    "## Component model",
+    "## Documented artifact linkages",
+    "## Project-to-component matrix",
+    "## How recomposition operates in community practice",
+    "## When not to reuse",
+    "## Boundaries and open questions",
+    "## Source notes",
+    "KC Spaces Fund",
+    "KC Safer Spaces Fund",
+    "KC Town Hall",
+    "196 Artists Residency",
+    "adaptation is not duplication",
+    "structural resemblance does not establish historical transmission",
+    "collective credit"
+  ]) {
+    if (!record.source.includes(required)) errors.push(`recomposable-system record is missing ${required}`);
+  }
+
+  for (const forbidden of [
+    "All component similarities prove direct historical transmission",
+    "Every project used the same blueprint",
+    "Jamie solely authored this system",
+    "repository access authorizes publication"
+  ]) {
+    if (record.source.includes(forbidden)) errors.push(`recomposable-system record overclaims ${forbidden}`);
+  }
+
+  return errors;
+}
+
 const validateCandidate = (records) => [
   ...validateModel(records, undefined, { skipLinks: true }),
   ...validateWowListProductFit(records),
   ...validateWowListSocialPractice(records),
-  ...validateSundayDinnerWowListNycacSynergy(records)
+  ...validateSundayDinnerWowListNycacSynergy(records),
+  ...validateRecomposableProjectSystem(records)
 ];
 
 const cases = [
@@ -176,6 +215,14 @@ const cases = [
       "title: Sunday Dinner, WOW List, and NYC Artist Coalition synergy",
       "title: Sunday Dinner, Wildlist, and NYC Artist Coalition synergy"
     );
+  }],
+  ["recomposable project system promotes resemblance to lineage", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.recomposable-civic-cultural-systems");
+    r.source += "\nAll component similarities prove direct historical transmission.\n";
+  }],
+  ["recomposable project system loses its stop rule", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.recomposable-civic-cultural-systems");
+    r.source = r.source.replace("## When not to reuse", "## Optional reuse");
   }]
 ];
 

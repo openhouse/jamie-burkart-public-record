@@ -5,6 +5,7 @@ campaign implementation, cultural-space safety, neighborhood affordability,
 and accountable relationships with public agencies.
 
 - [Sunday Dinner, WOW List, and NYC Artist Coalition synergy](sunday-dinner-wow-list-nycac-synergy/README.md)
+- [Projects as a recomposable civic-cultural system](recomposable-civic-cultural-systems/README.md)
 
 ## Public statements
 

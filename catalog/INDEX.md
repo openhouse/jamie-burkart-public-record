@@ -13,6 +13,7 @@
 | 2019-02-11 | [Jamie Burkart on M.A.R.C.H. transparency](../library/practices/civic-cultural-organizing/public-statements/2019-02-11-march-transparency.md) | canonical-reference | public-source-already-published |
 | 2019-03-18 | [Jamie Burkart on small-business assistance and open data](../library/practices/civic-cultural-organizing/public-statements/2019-03-18-small-business-open-data.md) | canonical-reference | public-source-already-published |
 | 2025-11-10 | [Greenpoint commercial-rent public-event source gap](../library/practices/civic-cultural-organizing/public-statements/2025-11-10-greenpoint-source-gap.md) | public-coverage-gap | human-review-required |
+| 2026-08-11 | [Projects as a recomposable civic-cultural system](../library/practices/civic-cultural-organizing/recomposable-civic-cultural-systems/README.md) | public-source-record | private-public-safe-candidate |
 | 2026-08-11 | [Sunday Dinner, WOW List, and NYC Artist Coalition synergy](../library/practices/civic-cultural-organizing/sunday-dinner-wow-list-nycac-synergy/README.md) | public-source-record | private-public-safe-candidate |
 | 2026-07-29 | [Commercial Rent Stabilization public-support archive implementation](../library/practices/public-interest-technology/campaign-memory-system.md) | public-source-record | private-public-safe-candidate |
 | 2026-08-11 | [WOW List relational curation and participation practice](../library/practices/public-interest-technology/wow-list-relational-curation/README.md) | public-source-record | private-public-safe-candidate |
