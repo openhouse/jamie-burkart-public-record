@@ -9,9 +9,9 @@
   "source_body_policy": "public-source-bodies-remain-in-their-canonical-editions",
   "private_source_dependency": false,
   "photo_policy": "no-photo-pixels-or-identifiers; publication-review-required",
-  "record_count": 13,
-  "candidate_fingerprint": "8a10d8cc151a27ca237b4a85e0183d1a0c7261385da11faf4a2d3ce6f4f6adbd",
-  "records_digest": "4bc102d735e6b46ad783276111cbd07451d08be180dad6ffe969ee93e7efe067",
+  "record_count": 15,
+  "candidate_fingerprint": "0d99421c607f5b9e113626f42d039328d42ffb16b5152a0cc76e4306989b660f",
+  "records_digest": "b63d8a3db8327ce9a4e79b8cceea6f50b8d14e00f07ea3f53e5aa62e6ac75695",
   "records": [
     {
       "id": "record.gap.encounter.innsbruck-studio-3",
@@ -245,6 +245,27 @@
       "sha256": "a2535881084f27d11ddf1c5c39cb95917f0d51a13d983d5a117d189321ea0154"
     },
     {
+      "id": "record.practice.sunday-dinner-wow-list-nycac-synergy",
+      "title": "Sunday Dinner, WOW List, and NYC Artist Coalition synergy",
+      "kind": "public-source-record",
+      "status": "maintained",
+      "canonical_path": "library/practices/civic-cultural-organizing/sunday-dinner-wow-list-nycac-synergy/README.md",
+      "record_date": "2026-08-11",
+      "practice": "civic-cultural-organizing",
+      "project": "sunday-dinner-wow-list-nycac",
+      "place": "new-york-city-and-distributed",
+      "source_type": "public-project-social-and-event-record",
+      "source_home": "public-links-and-governed-summary",
+      "publication_state": "private-public-safe-candidate",
+      "summary": "Public-safe synthesis of the recurring participation pattern across a hosted gathering, a distributed discovery platform, and a civic-cultural coalition.",
+      "canonical_repository": null,
+      "canonical_commit": null,
+      "canonical_record_path": null,
+      "canonical_record_url": null,
+      "primary_source_url": "https://www.jamieburk.art/work/wowlist",
+      "sha256": "64cd6a918d7e4856804f83163a3d3de41bf386ce1160bb07ba477394442b446b"
+    },
+    {
       "id": "record.project.2026-commercial-rent-public-support-archive",
       "title": "Commercial Rent Stabilization public-support archive implementation",
       "kind": "public-source-record",
@@ -266,6 +287,27 @@
       "sha256": "14978743d4b522202f0436d880faeddfc8d26900171ad99ae2843ce82a89720f"
     },
     {
+      "id": "record.practice.wow-list-relational-curation",
+      "title": "WOW List relational curation and participation practice",
+      "kind": "public-source-record",
+      "status": "maintained",
+      "canonical_path": "library/practices/public-interest-technology/wow-list-relational-curation/README.md",
+      "record_date": "2026-08-11",
+      "practice": "public-interest-technology",
+      "project": "wow-list",
+      "place": "distributed",
+      "source_type": "public-project-and-social-record",
+      "source_home": "public-links-and-governed-summary",
+      "publication_state": "private-public-safe-candidate",
+      "summary": "Public-safe account of how invitation, onboarding, editorial work, explainable discovery, and shared maintenance made WOW List socially operative.",
+      "canonical_repository": null,
+      "canonical_commit": null,
+      "canonical_record_path": null,
+      "canonical_record_url": null,
+      "primary_source_url": "https://www.jamieburk.art/work/wowlist",
+      "sha256": "de3142fe2c9f5df065bccaab09510f6e46fc4f3932224517648a45f7ffae740a"
+    },
+    {
       "id": "record.project.wow-list-product-leadership",
       "title": "WOW List as senior product-leadership evidence",
       "kind": "public-source-record",
@@ -284,7 +326,7 @@
       "canonical_record_path": null,
       "canonical_record_url": null,
       "primary_source_url": "https://cityjobs.nyc.gov/job/senior-product-manager-in-brooklyn-jid-44507",
-      "sha256": "ce2d5fb3158fcabc5879d609a7a2e7f128c1106d2f40025e9cccbec527062c71"
+      "sha256": "8879470e8569f502cfadcdf208165084df72060792ee835ba447f28cd99f2e1c"
     }
   ]
 }

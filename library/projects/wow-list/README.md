@@ -21,6 +21,11 @@ summary: Public-safe mapping from Jamie Burkart's co-building of WOW List to sen
 
 # WOW List as senior product-leadership evidence
 
+Related records:
+
+- [WOW List relational curation and participation practice](../../practices/public-interest-technology/wow-list-relational-curation/README.md)
+- [Sunday Dinner, WOW List, and NYC Artist Coalition synergy](../../practices/civic-cultural-organizing/sunday-dinner-wow-list-nycac-synergy/README.md)
+
 ## Conclusion
 
 WOW List makes an unusually strong case for Jamie Burkart as a senior product

@@ -29,6 +29,14 @@ Generated from canonical records.
 
 - [WOW List as senior product-leadership evidence](../library/projects/wow-list/README.md) — Public-safe mapping from Jamie Burkart's co-building of WOW List to senior resident-facing product work, with collective credit and explicit qualification gaps.
 
+## public-project-and-social-record
+
+- [WOW List relational curation and participation practice](../library/practices/public-interest-technology/wow-list-relational-curation/README.md) — Public-safe account of how invitation, onboarding, editorial work, explainable discovery, and shared maintenance made WOW List socially operative.
+
+## public-project-social-and-event-record
+
+- [Sunday Dinner, WOW List, and NYC Artist Coalition synergy](../library/practices/civic-cultural-organizing/sunday-dinner-wow-list-nycac-synergy/README.md) — Public-safe synthesis of the recurring participation pattern across a hosted gathering, a distributed discovery platform, and a civic-cultural coalition.
+
 ## working-event-transcript
 
 - [Greenpoint commercial-rent public-event source gap](../library/practices/civic-cultural-organizing/public-statements/2025-11-10-greenpoint-source-gap.md) — A working transcript exists in the issue archive, but public audio, attribution, and rights review are insufficient for promotion as a public source record here.

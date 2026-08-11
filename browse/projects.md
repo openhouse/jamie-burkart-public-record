@@ -31,10 +31,15 @@ Generated from canonical records.
 
 - [Jamie Burkart for Save NYC Spaces](../library/practices/civic-cultural-organizing/public-statements/2017-10-11-save-nyc-spaces.md) — Campaign-published statement locating globally significant cultural traditions in New York City's small grassroots community spaces.
 
+## sunday-dinner-wow-list-nycac
+
+- [Sunday Dinner, WOW List, and NYC Artist Coalition synergy](../library/practices/civic-cultural-organizing/sunday-dinner-wow-list-nycac-synergy/README.md) — Public-safe synthesis of the recurring participation pattern across a hosted gathering, a distributed discovery platform, and a civic-cultural coalition.
+
 ## talks-not-raids
 
 - [Jamie Burkart on M.A.R.C.H. transparency](../library/practices/civic-cultural-organizing/public-statements/2019-02-11-march-transparency.md) — Official Council testimony arguing for transparent, proportional, problem-solving relationships with neighborhood cultural spaces.
 
 ## wow-list
 
+- [WOW List relational curation and participation practice](../library/practices/public-interest-technology/wow-list-relational-curation/README.md) — Public-safe account of how invitation, onboarding, editorial work, explainable discovery, and shared maintenance made WOW List socially operative.
 - [WOW List as senior product-leadership evidence](../library/projects/wow-list/README.md) — Public-safe mapping from Jamie Burkart's co-building of WOW List to senior resident-facing product work, with collective credit and explicit qualification gaps.

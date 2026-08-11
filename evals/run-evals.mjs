@@ -32,9 +32,81 @@ function validateWowListProductFit(records) {
   return errors;
 }
 
+function validateWowListSocialPractice(records) {
+  const errors = [];
+  const record = records.find((item) => item.data.id === "record.practice.wow-list-relational-curation");
+  if (!record) return ["missing WOW List relational-curation record"];
+
+  for (const required of [
+    "## Central finding",
+    "## Practice and product-affordance map",
+    "## How participation moved",
+    "## Power, limits, and unanswered questions",
+    "## Source notes",
+    "Richard Caceres",
+    "guest writers",
+    "intended practice is not uniform experience",
+    "visibility is not consent",
+    "https://www.youtube.com/watch?v=nQg47LtixPI",
+    "https://x.com/wowlist/status/433671630837919744",
+    "https://x.com/wowlist/status/771457416298921985",
+    "https://www.sbdiy.org/"
+  ]) {
+    if (!record.source.includes(required)) errors.push(`WOW List social-practice record is missing ${required}`);
+  }
+
+  for (const forbidden of [
+    "Jamie solely created WOW List",
+    "every participant experienced",
+    "public visibility is consent",
+    "the social practice caused community impact",
+    "private repository authorizes publication"
+  ]) {
+    if (record.source.toLowerCase().includes(forbidden.toLowerCase())) errors.push(`WOW List social-practice record overclaims ${forbidden}`);
+  }
+  return errors;
+}
+
+function validateSundayDinnerWowListNycacSynergy(records) {
+  const errors = [];
+  const record = records.find((item) => item.data.id === "record.practice.sunday-dinner-wow-list-nycac-synergy");
+  if (!record) return ["missing Sunday Dinner–WOW List–NYCAC synergy record"];
+
+  for (const required of [
+    "## Central finding",
+    "## Three containers",
+    "## The reusable social-technical pattern",
+    "## What changed across the transitions",
+    "## Boundaries and open questions",
+    "## Source notes",
+    "continuity is not inevitability",
+    "does not establish that WOW List caused NYC Artist Coalition",
+    "Richard Caceres",
+    "collective formation",
+    "https://x.com/wowlist/status/433671630837919744",
+    "https://www.youtube.com/watch?v=nQg47LtixPI",
+    "https://www.facebook.com/nycartistcoalition/",
+    "https://www.callscript.org/"
+  ]) {
+    if (!record.source.includes(required)) errors.push(`cross-project synergy record is missing ${required}`);
+  }
+
+  for (const forbidden of [
+    "WOW List therefore caused NYC Artist Coalition",
+    "NYCAC was the inevitable result",
+    "Jamie solely created this lineage",
+    "private evidence authorizes publication"
+  ]) {
+    if (record.source.includes(forbidden)) errors.push(`cross-project synergy record overclaims ${forbidden}`);
+  }
+  return errors;
+}
+
 const validateCandidate = (records) => [
   ...validateModel(records, undefined, { skipLinks: true }),
-  ...validateWowListProductFit(records)
+  ...validateWowListProductFit(records),
+  ...validateWowListSocialPractice(records),
+  ...validateSundayDinnerWowListNycacSynergy(records)
 ];
 
 const cases = [
@@ -61,6 +133,38 @@ const cases = [
   ["WOW List product-fit asserts accessibility compliance", (records) => {
     const r = records.find((item) => item.data.id === "record.project.wow-list-product-leadership");
     r.source += "\nWOW List was fully WCAG 2.1 AA compliant.\n";
+  }],
+  ["WOW List social-practice loses collective credit", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.wow-list-relational-curation");
+    r.source = r.source.replaceAll("Richard Caceres", "a collaborator");
+  }],
+  ["WOW List social-practice turns guidance into uniform experience", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.wow-list-relational-curation");
+    r.source += "\nEvery participant experienced the intended practice.\n";
+  }],
+  ["WOW List social-practice turns visibility into consent", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.wow-list-relational-curation");
+    r.source += "\nPublic visibility is consent.\n";
+  }],
+  ["WOW List social-practice loses source support", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.wow-list-relational-curation");
+    r.source = r.source.replaceAll("https://www.youtube.com/watch?v=nQg47LtixPI", "source-withheld");
+  }],
+  ["cross-project synergy asserts causation", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.sunday-dinner-wow-list-nycac-synergy");
+    r.source += "\nWOW List therefore caused NYC Artist Coalition.\n";
+  }],
+  ["cross-project synergy asserts inevitability", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.sunday-dinner-wow-list-nycac-synergy");
+    r.source += "\nNYCAC was the inevitable result.\n";
+  }],
+  ["cross-project synergy loses collective credit", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.sunday-dinner-wow-list-nycac-synergy");
+    r.source = r.source.replaceAll("Richard Caceres", "a collaborator");
+  }],
+  ["cross-project synergy loses civic source", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.sunday-dinner-wow-list-nycac-synergy");
+    r.source = r.source.replaceAll("https://www.callscript.org/", "source-withheld");
   }]
 ];
 
