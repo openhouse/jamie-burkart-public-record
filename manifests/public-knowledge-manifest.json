@@ -10,8 +10,8 @@
   "private_source_dependency": false,
   "photo_policy": "no-photo-pixels-or-identifiers; publication-review-required",
   "record_count": 15,
-  "candidate_fingerprint": "0d99421c607f5b9e113626f42d039328d42ffb16b5152a0cc76e4306989b660f",
-  "records_digest": "b63d8a3db8327ce9a4e79b8cceea6f50b8d14e00f07ea3f53e5aa62e6ac75695",
+  "candidate_fingerprint": "6fc58f04f748383aa873c32c18646455940a2676120d12f64a3ca096894ce82e",
+  "records_digest": "b8df73c02e409ab039cd38ebcd0009e854fa9b7d13f1d3727017ae57f94719b4",
   "records": [
     {
       "id": "record.gap.encounter.innsbruck-studio-3",
@@ -263,7 +263,7 @@
       "canonical_record_path": null,
       "canonical_record_url": null,
       "primary_source_url": "https://www.jamieburk.art/work/wowlist",
-      "sha256": "64cd6a918d7e4856804f83163a3d3de41bf386ce1160bb07ba477394442b446b"
+      "sha256": "99a959b1a6b71d94e972cefd7fbe2e435c8f17a0c0bbe94692e093c9904a9d82"
     },
     {
       "id": "record.project.2026-commercial-rent-public-support-archive",

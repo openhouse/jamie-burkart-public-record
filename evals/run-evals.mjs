@@ -72,6 +72,10 @@ function validateSundayDinnerWowListNycacSynergy(records) {
   const record = records.find((item) => item.data.id === "record.practice.sunday-dinner-wow-list-nycac-synergy");
   if (!record) return ["missing Sunday Dinner–WOW List–NYCAC synergy record"];
 
+  if (/^title:\s.*\bWildlist\b/im.test(record.source.split("---", 3)[1] ?? "")) {
+    errors.push("cross-project synergy record uses Wildlist as the canonical project name");
+  }
+
   for (const required of [
     "## Central finding",
     "## Three containers",
@@ -165,6 +169,13 @@ const cases = [
   ["cross-project synergy loses civic source", (records) => {
     const r = records.find((item) => item.data.id === "record.practice.sunday-dinner-wow-list-nycac-synergy");
     r.source = r.source.replaceAll("https://www.callscript.org/", "source-withheld");
+  }],
+  ["Wildlist search term replaces the canonical WOW List name", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.sunday-dinner-wow-list-nycac-synergy");
+    r.source = r.source.replace(
+      "title: Sunday Dinner, WOW List, and NYC Artist Coalition synergy",
+      "title: Sunday Dinner, Wildlist, and NYC Artist Coalition synergy"
+    );
   }]
 ];
 
