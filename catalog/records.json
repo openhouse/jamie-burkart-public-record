@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "generated_at": "2026-08-03",
-  "record_count": 12,
-  "candidate_fingerprint": "ff882202174c3f117af4e48a78c21c3d2ff2bea575be2459dcc7b3b9d54f1612",
+  "record_count": 13,
+  "candidate_fingerprint": "8a10d8cc151a27ca237b4a85e0183d1a0c7261385da11faf4a2d3ce6f4f6adbd",
   "records": [
     {
       "id": "record.gap.encounter.innsbruck-studio-3",
@@ -255,6 +255,27 @@
       "canonical_record_url": null,
       "primary_source_url": "https://github.com/openhouse/commercial-rent-stabilization-public-support/tree/f806a04eeac4912d509bc9b051a95567582daa79",
       "sha256": "14978743d4b522202f0436d880faeddfc8d26900171ad99ae2843ce82a89720f"
+    },
+    {
+      "id": "record.project.wow-list-product-leadership",
+      "title": "WOW List as senior product-leadership evidence",
+      "kind": "public-source-record",
+      "status": "maintained",
+      "canonical_path": "library/projects/wow-list/README.md",
+      "record_date": "2026-08-11",
+      "practice": "public-interest-technology",
+      "project": "wow-list",
+      "place": "new-york-city",
+      "source_type": "public-project-and-official-job-posting",
+      "source_home": "local-metadata-only",
+      "publication_state": "private-public-safe-candidate",
+      "summary": "Public-safe mapping from Jamie Burkart's co-building of WOW List to senior resident-facing product work, with collective credit and explicit qualification gaps.",
+      "canonical_repository": null,
+      "canonical_commit": null,
+      "canonical_record_path": null,
+      "canonical_record_url": null,
+      "primary_source_url": "https://cityjobs.nyc.gov/job/senior-product-manager-in-brooklyn-jid-44507",
+      "sha256": "ce2d5fb3158fcabc5879d609a7a2e7f128c1106d2f40025e9cccbec527062c71"
     }
   ]
 }

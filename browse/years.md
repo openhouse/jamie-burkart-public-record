@@ -28,3 +28,4 @@ Generated from canonical records.
 ## 2026
 
 - [Commercial Rent Stabilization public-support archive implementation](../library/practices/public-interest-technology/campaign-memory-system.md) — Public repository organizing full-text support statements through campaign-first canonical homes, cross-cutting browse indexes, provenance, and executable checks.
+- [WOW List as senior product-leadership evidence](../library/projects/wow-list/README.md) — Public-safe mapping from Jamie Burkart's co-building of WOW List to senior resident-facing product work, with collective credit and explicit qualification gaps.

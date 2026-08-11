@@ -1,0 +1,37 @@
+{
+  "run_id": "2026-08-11-wowlist-product-fit-hill-climb",
+  "candidate_scope": "library canonical records",
+  "candidate_fingerprint": "8a10d8cc151a27ca237b4a85e0183d1a0c7261385da11faf4a2d3ce6f4f6adbd",
+  "record_count": 13,
+  "baseline": {
+    "record_count": 12,
+    "mutation_result": "12/12 detected",
+    "new_criterion_result": "failed because the WOW List Senior Product Manager fit record was absent"
+  },
+  "bounded_change": {
+    "record": "library/projects/wow-list/README.md",
+    "purpose": "Map public WOW List product evidence to NYC OTI Job ID 782366 while preserving collective credit and explicit gaps.",
+    "new_adversarial_cases": [
+      "collective credit removed",
+      "civil-service eligibility asserted",
+      "accessibility compliance asserted"
+    ]
+  },
+  "result": {
+    "status": "passed",
+    "records_validated": 13,
+    "mutation_result": "15/15 detected",
+    "relative_links_checked": true,
+    "canonical_home_checks": true,
+    "privacy_and_publication_boundaries_checked": true
+  },
+  "human_gates": [
+    "civil-service eligibility",
+    "employer assessment and selection",
+    "reference checks",
+    "public repository visibility",
+    "Knowledge Wiki interpretation",
+    "portfolio selection",
+    "application submission"
+  ]
+}

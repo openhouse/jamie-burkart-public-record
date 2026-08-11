@@ -34,3 +34,7 @@ Generated from canonical records.
 ## talks-not-raids
 
 - [Jamie Burkart on M.A.R.C.H. transparency](../library/practices/civic-cultural-organizing/public-statements/2019-02-11-march-transparency.md) — Official Council testimony arguing for transparent, proportional, problem-solving relationships with neighborhood cultural spaces.
+
+## wow-list
+
+- [WOW List as senior product-leadership evidence](../library/projects/wow-list/README.md) — Public-safe mapping from Jamie Burkart's co-building of WOW List to senior resident-facing product work, with collective credit and explicit qualification gaps.
