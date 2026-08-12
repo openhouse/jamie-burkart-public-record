@@ -10,6 +10,10 @@ Generated from canonical records.
 
 - [Jamie Burkart on CreateNYC and cultural funding](../library/practices/civic-cultural-organizing/public-statements/2018-03-16-createnyc-cultural-funding.md) — Official Council testimony on cultural funding, affordable community space, and implementation of the CreateNYC cultural plan.
 
+## cross-project-component-system
+
+- [Projects as a recomposable civic-cultural system](../library/practices/civic-cultural-organizing/recomposable-civic-cultural-systems/README.md) — Public-safe, evidence-tiered account of how technical modules, social protocols, public artifacts, and stewardship practices can be adapted across Jamie Burkart's projects.
+
 ## fair-rent-nyc
 
 - [Jamie Burkart on SBJSA and commercial-tenant protections](../library/practices/civic-cultural-organizing/public-statements/2018-10-22-sbjsa-commercial-rent.md) — Official Council testimony supporting commercial-tenant protections as a defense of neighborhood businesses and cultural spaces.
@@ -31,10 +35,15 @@ Generated from canonical records.
 
 - [Jamie Burkart for Save NYC Spaces](../library/practices/civic-cultural-organizing/public-statements/2017-10-11-save-nyc-spaces.md) — Campaign-published statement locating globally significant cultural traditions in New York City's small grassroots community spaces.
 
+## sunday-dinner-wow-list-nycac
+
+- [Sunday Dinner, WOW List, and NYC Artist Coalition synergy](../library/practices/civic-cultural-organizing/sunday-dinner-wow-list-nycac-synergy/README.md) — Public-safe synthesis of the recurring participation pattern across a hosted gathering, a distributed discovery platform, and a civic-cultural coalition.
+
 ## talks-not-raids
 
 - [Jamie Burkart on M.A.R.C.H. transparency](../library/practices/civic-cultural-organizing/public-statements/2019-02-11-march-transparency.md) — Official Council testimony arguing for transparent, proportional, problem-solving relationships with neighborhood cultural spaces.
 
 ## wow-list
 
+- [WOW List relational curation and participation practice](../library/practices/public-interest-technology/wow-list-relational-curation/README.md) — Public-safe account of how invitation, onboarding, editorial work, explainable discovery, and shared maintenance made WOW List socially operative.
 - [WOW List as senior product-leadership evidence](../library/projects/wow-list/README.md) — Public-safe mapping from Jamie Burkart's co-building of WOW List to senior resident-facing product work, with collective credit and explicit qualification gaps.

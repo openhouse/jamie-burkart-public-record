@@ -32,9 +32,124 @@ function validateWowListProductFit(records) {
   return errors;
 }
 
+function validateWowListSocialPractice(records) {
+  const errors = [];
+  const record = records.find((item) => item.data.id === "record.practice.wow-list-relational-curation");
+  if (!record) return ["missing WOW List relational-curation record"];
+
+  for (const required of [
+    "## Central finding",
+    "## Practice and product-affordance map",
+    "## How participation moved",
+    "## Power, limits, and unanswered questions",
+    "## Source notes",
+    "Richard Caceres",
+    "guest writers",
+    "intended practice is not uniform experience",
+    "visibility is not consent",
+    "https://www.youtube.com/watch?v=nQg47LtixPI",
+    "https://x.com/wowlist/status/433671630837919744",
+    "https://x.com/wowlist/status/771457416298921985",
+    "https://www.sbdiy.org/"
+  ]) {
+    if (!record.source.includes(required)) errors.push(`WOW List social-practice record is missing ${required}`);
+  }
+
+  for (const forbidden of [
+    "Jamie solely created WOW List",
+    "every participant experienced",
+    "public visibility is consent",
+    "the social practice caused community impact",
+    "private repository authorizes publication"
+  ]) {
+    if (record.source.toLowerCase().includes(forbidden.toLowerCase())) errors.push(`WOW List social-practice record overclaims ${forbidden}`);
+  }
+  return errors;
+}
+
+function validateSundayDinnerWowListNycacSynergy(records) {
+  const errors = [];
+  const record = records.find((item) => item.data.id === "record.practice.sunday-dinner-wow-list-nycac-synergy");
+  if (!record) return ["missing Sunday Dinner–WOW List–NYCAC synergy record"];
+
+  if (/^title:\s.*\bWildlist\b/im.test(record.source.split("---", 3)[1] ?? "")) {
+    errors.push("cross-project synergy record uses Wildlist as the canonical project name");
+  }
+
+  for (const required of [
+    "## Central finding",
+    "## Three containers",
+    "## The reusable social-technical pattern",
+    "## What changed across the transitions",
+    "## Boundaries and open questions",
+    "## Source notes",
+    "continuity is not inevitability",
+    "does not establish that WOW List caused NYC Artist Coalition",
+    "Richard Caceres",
+    "collective formation",
+    "https://x.com/wowlist/status/433671630837919744",
+    "https://www.youtube.com/watch?v=nQg47LtixPI",
+    "https://www.facebook.com/nycartistcoalition/",
+    "https://www.callscript.org/"
+  ]) {
+    if (!record.source.includes(required)) errors.push(`cross-project synergy record is missing ${required}`);
+  }
+
+  for (const forbidden of [
+    "WOW List therefore caused NYC Artist Coalition",
+    "NYCAC was the inevitable result",
+    "Jamie solely created this lineage",
+    "private evidence authorizes publication"
+  ]) {
+    if (record.source.includes(forbidden)) errors.push(`cross-project synergy record overclaims ${forbidden}`);
+  }
+  return errors;
+}
+
+function validateRecomposableProjectSystem(records) {
+  const errors = [];
+  const record = records.find((item) => item.data.id === "record.practice.recomposable-civic-cultural-systems");
+  if (!record) return ["missing recomposable civic-cultural systems record"];
+
+  for (const required of [
+    "## Central finding",
+    "## Evidence tiers",
+    "## Component model",
+    "## Documented artifact linkages",
+    "## Project-to-component matrix",
+    "## How recomposition operates in community practice",
+    "## When not to reuse",
+    "## Boundaries and open questions",
+    "## Source notes",
+    "KC Spaces Fund",
+    "KC Safer Spaces Fund",
+    "KC Town Hall",
+    "196 Artists Residency",
+    "adaptation is not duplication",
+    "structural resemblance does not establish historical transmission",
+    "collective credit"
+  ]) {
+    if (!record.source.includes(required)) errors.push(`recomposable-system record is missing ${required}`);
+  }
+
+  for (const forbidden of [
+    "All component similarities prove direct historical transmission",
+    "Every project used the same blueprint",
+    "Jamie solely authored this system",
+    "repository access authorizes publication"
+  ]) {
+    if (record.source.includes(forbidden)) errors.push(`recomposable-system record overclaims ${forbidden}`);
+  }
+
+  return errors;
+}
+
 const validateCandidate = (records) => [
   ...validateModel(records, undefined, { skipLinks: true }),
-  ...validateWowListProductFit(records)
+  ...validateWowListProductFit(records),
+  ...validateWowListSocialPractice(records),
+  ...validateSundayDinnerWowListNycacSynergy(records),
+  ...validateRecomposableProjectSystem(records)
 ];
 
 const cases = [
@@ -61,6 +176,53 @@ const cases = [
   ["WOW List product-fit asserts accessibility compliance", (records) => {
     const r = records.find((item) => item.data.id === "record.project.wow-list-product-leadership");
     r.source += "\nWOW List was fully WCAG 2.1 AA compliant.\n";
+  }],
+  ["WOW List social-practice loses collective credit", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.wow-list-relational-curation");
+    r.source = r.source.replaceAll("Richard Caceres", "a collaborator");
+  }],
+  ["WOW List social-practice turns guidance into uniform experience", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.wow-list-relational-curation");
+    r.source += "\nEvery participant experienced the intended practice.\n";
+  }],
+  ["WOW List social-practice turns visibility into consent", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.wow-list-relational-curation");
+    r.source += "\nPublic visibility is consent.\n";
+  }],
+  ["WOW List social-practice loses source support", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.wow-list-relational-curation");
+    r.source = r.source.replaceAll("https://www.youtube.com/watch?v=nQg47LtixPI", "source-withheld");
+  }],
+  ["cross-project synergy asserts causation", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.sunday-dinner-wow-list-nycac-synergy");
+    r.source += "\nWOW List therefore caused NYC Artist Coalition.\n";
+  }],
+  ["cross-project synergy asserts inevitability", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.sunday-dinner-wow-list-nycac-synergy");
+    r.source += "\nNYCAC was the inevitable result.\n";
+  }],
+  ["cross-project synergy loses collective credit", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.sunday-dinner-wow-list-nycac-synergy");
+    r.source = r.source.replaceAll("Richard Caceres", "a collaborator");
+  }],
+  ["cross-project synergy loses civic source", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.sunday-dinner-wow-list-nycac-synergy");
+    r.source = r.source.replaceAll("https://www.callscript.org/", "source-withheld");
+  }],
+  ["Wildlist search term replaces the canonical WOW List name", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.sunday-dinner-wow-list-nycac-synergy");
+    r.source = r.source.replace(
+      "title: Sunday Dinner, WOW List, and NYC Artist Coalition synergy",
+      "title: Sunday Dinner, Wildlist, and NYC Artist Coalition synergy"
+    );
+  }],
+  ["recomposable project system promotes resemblance to lineage", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.recomposable-civic-cultural-systems");
+    r.source += "\nAll component similarities prove direct historical transmission.\n";
+  }],
+  ["recomposable project system loses its stop rule", (records) => {
+    const r = records.find((item) => item.data.id === "record.practice.recomposable-civic-cultural-systems");
+    r.source = r.source.replace("## When not to reuse", "## Optional reuse");
   }]
 ];
 

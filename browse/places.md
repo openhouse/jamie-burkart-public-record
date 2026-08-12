@@ -6,6 +6,14 @@ Generated from canonical records.
 
 - [MIT Media Lab symposium encounter](../library/encounters/mit-media-lab/README.md) — Protected research and governed photo leads point toward an MIT Media Lab encounter, but the public event identity, date, and Jamie's role remain unresolved.
 
+## distributed
+
+- [WOW List relational curation and participation practice](../library/practices/public-interest-technology/wow-list-relational-curation/README.md) — Public-safe account of how invitation, onboarding, editorial work, explainable discovery, and shared maintenance made WOW List socially operative.
+
+## distributed-new-york-city-and-kansas-city
+
+- [Projects as a recomposable civic-cultural system](../library/practices/civic-cultural-organizing/recomposable-civic-cultural-systems/README.md) — Public-safe, evidence-tiered account of how technical modules, social protocols, public artifacts, and stewardship practices can be adapted across Jamie Burkart's projects.
+
 ## greenpoint-brooklyn
 
 - [Greenpoint commercial-rent public-event source gap](../library/practices/civic-cultural-organizing/public-statements/2025-11-10-greenpoint-source-gap.md) — A working transcript exists in the issue archive, but public audio, attribution, and rights review are insufficient for promotion as a public source record here.
@@ -19,6 +27,10 @@ Generated from canonical records.
 - [Jamie Burkart for Save NYC Spaces](../library/practices/civic-cultural-organizing/public-statements/2017-10-11-save-nyc-spaces.md) — Campaign-published statement locating globally significant cultural traditions in New York City's small grassroots community spaces.
 - [Commercial Rent Stabilization public-support archive implementation](../library/practices/public-interest-technology/campaign-memory-system.md) — Public repository organizing full-text support statements through campaign-first canonical homes, cross-cutting browse indexes, provenance, and executable checks.
 - [WOW List as senior product-leadership evidence](../library/projects/wow-list/README.md) — Public-safe mapping from Jamie Burkart's co-building of WOW List to senior resident-facing product work, with collective credit and explicit qualification gaps.
+
+## new-york-city-and-distributed
+
+- [Sunday Dinner, WOW List, and NYC Artist Coalition synergy](../library/practices/civic-cultural-organizing/sunday-dinner-wow-list-nycac-synergy/README.md) — Public-safe synthesis of the recurring participation pattern across a hosted gathering, a distributed discovery platform, and a civic-cultural coalition.
 
 ## new-york-city-council
 

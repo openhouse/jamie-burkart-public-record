@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "generated_at": "2026-08-03",
-  "record_count": 13,
-  "candidate_fingerprint": "8a10d8cc151a27ca237b4a85e0183d1a0c7261385da11faf4a2d3ce6f4f6adbd",
+  "record_count": 16,
+  "candidate_fingerprint": "a555007f0a2763e7548b99d73dd7f3cd4c0dcc63ebe95ec8ab16ad76b7363a99",
   "records": [
     {
       "id": "record.gap.encounter.innsbruck-studio-3",
@@ -236,6 +236,48 @@
       "sha256": "a2535881084f27d11ddf1c5c39cb95917f0d51a13d983d5a117d189321ea0154"
     },
     {
+      "id": "record.practice.recomposable-civic-cultural-systems",
+      "title": "Projects as a recomposable civic-cultural system",
+      "kind": "public-source-record",
+      "status": "maintained",
+      "canonical_path": "library/practices/civic-cultural-organizing/recomposable-civic-cultural-systems/README.md",
+      "record_date": "2026-08-11",
+      "practice": "civic-cultural-organizing",
+      "project": "cross-project-component-system",
+      "place": "distributed-new-york-city-and-kansas-city",
+      "source_type": "exact-commit-public-knowledge-wiki-record",
+      "source_home": "https://github.com/openhouse/jamieburk.art/blob/4ff407acaba74bd8d59a0904bfa04f9ec4371dea/docs/knowledge-bank/methods/recomposable-civic-cultural-systems.md",
+      "publication_state": "private-public-safe-candidate",
+      "summary": "Public-safe, evidence-tiered account of how technical modules, social protocols, public artifacts, and stewardship practices can be adapted across Jamie Burkart's projects.",
+      "canonical_repository": null,
+      "canonical_commit": null,
+      "canonical_record_path": null,
+      "canonical_record_url": null,
+      "primary_source_url": "https://github.com/openhouse/jamieburk.art/blob/4ff407acaba74bd8d59a0904bfa04f9ec4371dea/docs/knowledge-bank/methods/recomposable-civic-cultural-systems.md",
+      "sha256": "b9106b5b6e4522817907ce4a8aaa5929b76e60341313743051691da7e9cd457b"
+    },
+    {
+      "id": "record.practice.sunday-dinner-wow-list-nycac-synergy",
+      "title": "Sunday Dinner, WOW List, and NYC Artist Coalition synergy",
+      "kind": "public-source-record",
+      "status": "maintained",
+      "canonical_path": "library/practices/civic-cultural-organizing/sunday-dinner-wow-list-nycac-synergy/README.md",
+      "record_date": "2026-08-11",
+      "practice": "civic-cultural-organizing",
+      "project": "sunday-dinner-wow-list-nycac",
+      "place": "new-york-city-and-distributed",
+      "source_type": "public-project-social-and-event-record",
+      "source_home": "public-links-and-governed-summary",
+      "publication_state": "private-public-safe-candidate",
+      "summary": "Public-safe synthesis of the recurring participation pattern across a hosted gathering, a distributed discovery platform, and a civic-cultural coalition.",
+      "canonical_repository": null,
+      "canonical_commit": null,
+      "canonical_record_path": null,
+      "canonical_record_url": null,
+      "primary_source_url": "https://www.jamieburk.art/work/wowlist",
+      "sha256": "99a959b1a6b71d94e972cefd7fbe2e435c8f17a0c0bbe94692e093c9904a9d82"
+    },
+    {
       "id": "record.project.2026-commercial-rent-public-support-archive",
       "title": "Commercial Rent Stabilization public-support archive implementation",
       "kind": "public-source-record",
@@ -257,6 +299,27 @@
       "sha256": "14978743d4b522202f0436d880faeddfc8d26900171ad99ae2843ce82a89720f"
     },
     {
+      "id": "record.practice.wow-list-relational-curation",
+      "title": "WOW List relational curation and participation practice",
+      "kind": "public-source-record",
+      "status": "maintained",
+      "canonical_path": "library/practices/public-interest-technology/wow-list-relational-curation/README.md",
+      "record_date": "2026-08-11",
+      "practice": "public-interest-technology",
+      "project": "wow-list",
+      "place": "distributed",
+      "source_type": "public-project-and-social-record",
+      "source_home": "public-links-and-governed-summary",
+      "publication_state": "private-public-safe-candidate",
+      "summary": "Public-safe account of how invitation, onboarding, editorial work, explainable discovery, and shared maintenance made WOW List socially operative.",
+      "canonical_repository": null,
+      "canonical_commit": null,
+      "canonical_record_path": null,
+      "canonical_record_url": null,
+      "primary_source_url": "https://www.jamieburk.art/work/wowlist",
+      "sha256": "de3142fe2c9f5df065bccaab09510f6e46fc4f3932224517648a45f7ffae740a"
+    },
+    {
       "id": "record.project.wow-list-product-leadership",
       "title": "WOW List as senior product-leadership evidence",
       "kind": "public-source-record",
@@ -275,7 +338,7 @@
       "canonical_record_path": null,
       "canonical_record_url": null,
       "primary_source_url": "https://cityjobs.nyc.gov/job/senior-product-manager-in-brooklyn-jid-44507",
-      "sha256": "ce2d5fb3158fcabc5879d609a7a2e7f128c1106d2f40025e9cccbec527062c71"
+      "sha256": "8879470e8569f502cfadcdf208165084df72060792ee835ba447f28cd99f2e1c"
     }
   ]
 }

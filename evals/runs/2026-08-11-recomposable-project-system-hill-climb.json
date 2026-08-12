@@ -1,0 +1,37 @@
+{
+  "run_id": "2026-08-11-recomposable-project-system-hill-climb",
+  "candidate_scope": "library canonical records",
+  "candidate_fingerprint": "a555007f0a2763e7548b99d73dd7f3cd4c0dcc63ebe95ec8ab16ad76b7363a99",
+  "record_count": 16,
+  "baseline": {
+    "record_count": 15,
+    "mutation_result": "24/24 detected",
+    "new_criterion_result": "failed because the recomposable civic-cultural systems record was absent"
+  },
+  "bounded_change": {
+    "records": [
+      "library/practices/civic-cultural-organizing/recomposable-civic-cultural-systems/README.md"
+    ],
+    "purpose": "Publish a public-safe, source-cited model of how civic-cultural projects reuse and adapt technical, organizational, and social components without inflating resemblance into lineage or access into publication authority.",
+    "new_adversarial_cases": [
+      "documented-transfer evidence tier removed",
+      "adaptation boundary replaced with duplication language"
+    ]
+  },
+  "result": {
+    "status": "passed",
+    "records_validated": 16,
+    "mutation_result": "26/26 detected",
+    "relative_links_checked": true,
+    "canonical_home_checks": true,
+    "privacy_and_publication_boundaries_checked": true
+  },
+  "human_gates": [
+    "collaborator correction and attribution review",
+    "rights and consent for people and historical contributions",
+    "public repository visibility",
+    "Knowledge Wiki interpretation",
+    "portfolio selection",
+    "publication approval"
+  ]
+}

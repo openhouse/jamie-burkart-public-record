@@ -4,6 +4,9 @@ This practice joins listening, coalition infrastructure, public testimony,
 campaign implementation, cultural-space safety, neighborhood affordability,
 and accountable relationships with public agencies.
 
+- [Sunday Dinner, WOW List, and NYC Artist Coalition synergy](sunday-dinner-wow-list-nycac-synergy/README.md)
+- [Projects as a recomposable civic-cultural system](recomposable-civic-cultural-systems/README.md)
+
 ## Public statements
 
 - [Cabaret Law oversight and Office of Nightlife, June 2017](public-statements/2017-06-19-cabaret-law-and-office-of-nightlife.md)
