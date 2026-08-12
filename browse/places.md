@@ -18,6 +18,7 @@ Generated from canonical records.
 
 - [Jamie Burkart for Save NYC Spaces](../library/practices/civic-cultural-organizing/public-statements/2017-10-11-save-nyc-spaces.md) — Campaign-published statement locating globally significant cultural traditions in New York City's small grassroots community spaces.
 - [Commercial Rent Stabilization public-support archive implementation](../library/practices/public-interest-technology/campaign-memory-system.md) — Public repository organizing full-text support statements through campaign-first canonical homes, cross-cutting browse indexes, provenance, and executable checks.
+- [WOW List as senior product-leadership evidence](../library/projects/wow-list/README.md) — Public-safe mapping from Jamie Burkart's co-building of WOW List to senior resident-facing product work, with collective credit and explicit qualification gaps.
 
 ## new-york-city-council
 

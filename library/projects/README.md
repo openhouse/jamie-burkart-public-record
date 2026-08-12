@@ -12,3 +12,5 @@ Project routes are generated from the canonical records and available through
 - International symposium encounters
 
 Project participation never implies sole authorship or sole causation.
+
+- [WOW List as senior product-leadership evidence](wow-list/README.md)

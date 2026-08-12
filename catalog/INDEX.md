@@ -14,3 +14,4 @@
 | 2019-03-18 | [Jamie Burkart on small-business assistance and open data](../library/practices/civic-cultural-organizing/public-statements/2019-03-18-small-business-open-data.md) | canonical-reference | public-source-already-published |
 | 2025-11-10 | [Greenpoint commercial-rent public-event source gap](../library/practices/civic-cultural-organizing/public-statements/2025-11-10-greenpoint-source-gap.md) | public-coverage-gap | human-review-required |
 | 2026-07-29 | [Commercial Rent Stabilization public-support archive implementation](../library/practices/public-interest-technology/campaign-memory-system.md) | public-source-record | private-public-safe-candidate |
+| 2026-08-11 | [WOW List as senior product-leadership evidence](../library/projects/wow-list/README.md) | public-source-record | private-public-safe-candidate |

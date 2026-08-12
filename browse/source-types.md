@@ -25,6 +25,10 @@ Generated from canonical records.
 
 - [Commercial Rent Stabilization public-support archive implementation](../library/practices/public-interest-technology/campaign-memory-system.md) — Public repository organizing full-text support statements through campaign-first canonical homes, cross-cutting browse indexes, provenance, and executable checks.
 
+## public-project-and-official-job-posting
+
+- [WOW List as senior product-leadership evidence](../library/projects/wow-list/README.md) — Public-safe mapping from Jamie Burkart's co-building of WOW List to senior resident-facing product work, with collective credit and explicit qualification gaps.
+
 ## working-event-transcript
 
 - [Greenpoint commercial-rent public-event source gap](../library/practices/civic-cultural-organizing/public-statements/2025-11-10-greenpoint-source-gap.md) — A working transcript exists in the issue archive, but public audio, attribution, and rights review are insufficient for promotion as a public source record here.
