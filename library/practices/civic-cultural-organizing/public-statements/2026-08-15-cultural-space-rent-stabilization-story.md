@@ -13,15 +13,17 @@ place: new-york-city-and-instagram
 source_type: public-instagram-story
 source_home: canonical-external
 canonical_repository: openhouse/commercial-rent-stabilization-public-support
-canonical_commit: 42585897e2616f08d0751878a0a63a1d3180c1d2
+canonical_commit: ea5497dd910f3402c01e8b560b149d6674f951cc
 canonical_record_path: statements/campaigns/fair-rent-nyc/commercial-rent-stabilization/2026-08-15-nycartc-instagram-story-3964470891412306511/nyc-artist-coalition.md
-canonical_record_url: https://github.com/openhouse/commercial-rent-stabilization-public-support/blob/42585897e2616f08d0751878a0a63a1d3180c1d2/statements/campaigns/fair-rent-nyc/commercial-rent-stabilization/2026-08-15-nycartc-instagram-story-3964470891412306511/nyc-artist-coalition.md
+canonical_record_url: https://github.com/openhouse/commercial-rent-stabilization-public-support/blob/ea5497dd910f3402c01e8b560b149d6674f951cc/statements/campaigns/fair-rent-nyc/commercial-rent-stabilization/2026-08-15-nycartc-instagram-story-3964470891412306511/nyc-artist-coalition.md
 primary_source_url: https://www.instagram.com/stories/nycartc/3964470891412306511/
-capture_manifest_url: https://github.com/openhouse/commercial-rent-stabilization-public-support/blob/42585897e2616f08d0751878a0a63a1d3180c1d2/sources/instagram/2026-08-15-nycartc-story-3964470891412306511/capture.json
+capture_manifest_url: https://github.com/openhouse/commercial-rent-stabilization-public-support/blob/ea5497dd910f3402c01e8b560b149d6674f951cc/sources/instagram/2026-08-15-nycartc-story-3964470891412306511/capture.json
+reviewed_transcript_url: https://github.com/openhouse/commercial-rent-stabilization-public-support/blob/ea5497dd910f3402c01e8b560b149d6674f951cc/sources/instagram/2026-08-15-nycartc-story-3964470891412306511/transcript.reviewed.md
 canonical_source_sha256: 24808b127cd7af7bf0e804db0e27ec59b82d57d96ebf62a2f1e617ed6845caef
 text_state: reference-only-no-duplicated-body
 media_state: canonical-external-checksum-bound
-transcript_state: complete-supplied-voice-loyal-cut-independent-audio-review-pending
+transcript_state: complete-editorially-reviewed-diarized-audio-caption-and-source-checked
+human_listening_approval: pending-separate-gate
 account_authorship_scope: coalition-account-publication-individual-editorial-authorship-not-established
 publication_state: public-source-already-published
 photo_state: absent-until-human-approved
@@ -30,8 +32,9 @@ summary: NYC Artist Coalition Story combining Jamie Burkart's edited Wonderville
 
 # Cultural Space Rent Stabilization Story
 
-[Read the canonical source record](https://github.com/openhouse/commercial-rent-stabilization-public-support/blob/42585897e2616f08d0751878a0a63a1d3180c1d2/statements/campaigns/fair-rent-nyc/commercial-rent-stabilization/2026-08-15-nycartc-instagram-story-3964470891412306511/nyc-artist-coalition.md),
-[inspect its capture manifest](https://github.com/openhouse/commercial-rent-stabilization-public-support/blob/42585897e2616f08d0751878a0a63a1d3180c1d2/sources/instagram/2026-08-15-nycartc-story-3964470891412306511/capture.json),
+[Read the canonical source record](https://github.com/openhouse/commercial-rent-stabilization-public-support/blob/ea5497dd910f3402c01e8b560b149d6674f951cc/statements/campaigns/fair-rent-nyc/commercial-rent-stabilization/2026-08-15-nycartc-instagram-story-3964470891412306511/nyc-artist-coalition.md),
+[inspect its capture manifest](https://github.com/openhouse/commercial-rent-stabilization-public-support/blob/ea5497dd910f3402c01e8b560b149d6674f951cc/sources/instagram/2026-08-15-nycartc-story-3964470891412306511/capture.json),
+[read the reviewed diarized transcript](https://github.com/openhouse/commercial-rent-stabilization-public-support/blob/ea5497dd910f3402c01e8b560b149d6674f951cc/sources/instagram/2026-08-15-nycartc-story-3964470891412306511/transcript.reviewed.md),
 or [open the original Instagram Story](https://www.instagram.com/stories/nycartc/3964470891412306511/).
 
 ## Why it matters
@@ -55,8 +58,11 @@ accounts and sponsor acknowledgements establish endorsement; that every named
 person supports every proposal; or that legislation passed or changed because
 of this publication.
 
-The voice-loyal cut transcript was supplied by Jamie. Independent audio/timing
-review remains required, so the checksum-bound canonical archive—not this
-reference record—remains the source of truth for the media and transcript.
+The diarized transcript was checked across local speech recognition, animated
+Story captions, Jamie's supplied cut, and the source-event transcript. That
+review restored the interleaved Joe Ahearn, Stephanie Gross, and room turns and
+repaired small wording differences in Jamie's turns. Final human
+listening/approval remains separate, so the checksum-bound canonical archive—not
+this reference record—remains the source of truth for the media and transcript.
 
 [Back to civic and cultural organizing](../README.md)

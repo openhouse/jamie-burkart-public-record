@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "generated_at": "2026-08-03",
   "record_count": 17,
-  "candidate_fingerprint": "abbf460ca6e2fb0e55cae799de60ef860232197289eab35ec2c3f5f835bc1352",
+  "candidate_fingerprint": "9f0084d8343475e0ce207b16e6b490dd85494a0973cf4dc4f45a0c9ab2419da2",
   "records": [
     {
       "id": "record.gap.encounter.innsbruck-studio-3",
@@ -250,11 +250,11 @@
       "publication_state": "public-source-already-published",
       "summary": "NYC Artist Coalition Story combining Jamie Burkart's edited Wonderville remarks with a city-and-state call for cultural-space rent stabilization.",
       "canonical_repository": "openhouse/commercial-rent-stabilization-public-support",
-      "canonical_commit": "42585897e2616f08d0751878a0a63a1d3180c1d2",
+      "canonical_commit": "ea5497dd910f3402c01e8b560b149d6674f951cc",
       "canonical_record_path": "statements/campaigns/fair-rent-nyc/commercial-rent-stabilization/2026-08-15-nycartc-instagram-story-3964470891412306511/nyc-artist-coalition.md",
-      "canonical_record_url": "https://github.com/openhouse/commercial-rent-stabilization-public-support/blob/42585897e2616f08d0751878a0a63a1d3180c1d2/statements/campaigns/fair-rent-nyc/commercial-rent-stabilization/2026-08-15-nycartc-instagram-story-3964470891412306511/nyc-artist-coalition.md",
+      "canonical_record_url": "https://github.com/openhouse/commercial-rent-stabilization-public-support/blob/ea5497dd910f3402c01e8b560b149d6674f951cc/statements/campaigns/fair-rent-nyc/commercial-rent-stabilization/2026-08-15-nycartc-instagram-story-3964470891412306511/nyc-artist-coalition.md",
       "primary_source_url": "https://www.instagram.com/stories/nycartc/3964470891412306511/",
-      "sha256": "6e50391dc3eccc445ce8149e2d62f71137c48c69679e8f37e45d288a9622dc5c"
+      "sha256": "6eaa883296cd1af56772ff927b85492058a37302ff72c038954e25ee364d8afe"
     },
     {
       "id": "record.practice.recomposable-civic-cultural-systems",

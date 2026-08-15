@@ -238,6 +238,18 @@ const cases = [
       "tagged\naccounts and sponsor acknowledgements establish endorsement",
       "every tagged account and sponsor endorsed the Story"
     );
+  }],
+  ["Story reviewed transcript reference drifts", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-15-cultural-space-rent-stabilization-story");
+    r.data.reviewed_transcript_url = r.data.reviewed_transcript_url.replace(/blob\/[0-9a-f]{40}\//, "blob/main/");
+  }],
+  ["Story human listening gate is erased", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-15-cultural-space-rent-stabilization-story");
+    r.data.human_listening_approval = "approved";
+  }],
+  ["Story transcript status regresses to supplied draft", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-15-cultural-space-rent-stabilization-story");
+    r.data.transcript_state = "complete-supplied-voice-loyal-cut-independent-audio-review-pending";
   }]
 ];
 
