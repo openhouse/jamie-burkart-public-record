@@ -105,6 +105,25 @@ export function validateModel(records, root = repoRoot, options = {}) {
         errors.push(`${rel}: coverage gap must remain human-review-required`);
       }
     }
+
+    if (data.id === "record.statement.2026-08-15-cultural-space-rent-stabilization-story") {
+      const expected = {
+        canonical_commit: "42585897e2616f08d0751878a0a63a1d3180c1d2",
+        canonical_source_sha256: "24808b127cd7af7bf0e804db0e27ec59b82d57d96ebf62a2f1e617ed6845caef",
+        media_state: "canonical-external-checksum-bound",
+        transcript_state: "complete-supplied-voice-loyal-cut-independent-audio-review-pending",
+        account_authorship_scope: "coalition-account-publication-individual-editorial-authorship-not-established"
+      };
+      for (const [key, value] of Object.entries(expected)) {
+        if (data[key] !== value) errors.push(`${rel}: Story ${key} boundary drifted`);
+      }
+      if (!/tagged\s+accounts and sponsor acknowledgements establish endorsement/.test(body)) {
+        errors.push(`${rel}: Story tag and sponsor endorsement boundary missing`);
+      }
+      if (!/Independent audio\/timing\s+review remains required/.test(body)) {
+        errors.push(`${rel}: Story independent audio review gate missing`);
+      }
+    }
   }
 
   if (!options.skipLinks) {

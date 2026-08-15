@@ -29,6 +29,10 @@ Generated from canonical records.
 
 - [Commercial Rent Stabilization public-support archive implementation](../library/practices/public-interest-technology/campaign-memory-system.md) — Public repository organizing full-text support statements through campaign-first canonical homes, cross-cutting browse indexes, provenance, and executable checks.
 
+## public-instagram-story
+
+- [Jamie Burkart in the NYC Artist Coalition Cultural Space Rent Stabilization Story](../library/practices/civic-cultural-organizing/public-statements/2026-08-15-cultural-space-rent-stabilization-story.md) — NYC Artist Coalition Story combining Jamie Burkart's edited Wonderville remarks with a city-and-state call for cultural-space rent stabilization.
+
 ## public-project-and-official-job-posting
 
 - [WOW List as senior product-leadership evidence](../library/projects/wow-list/README.md) — Public-safe mapping from Jamie Burkart's co-building of WOW List to senior resident-facing product work, with collective credit and explicit qualification gaps.

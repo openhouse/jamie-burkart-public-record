@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "generated_at": "2026-08-03",
-  "record_count": 16,
-  "candidate_fingerprint": "a555007f0a2763e7548b99d73dd7f3cd4c0dcc63ebe95ec8ab16ad76b7363a99",
+  "record_count": 17,
+  "candidate_fingerprint": "abbf460ca6e2fb0e55cae799de60ef860232197289eab35ec2c3f5f835bc1352",
   "records": [
     {
       "id": "record.gap.encounter.innsbruck-studio-3",
@@ -234,6 +234,27 @@
       "canonical_record_url": "https://github.com/openhouse/commercial-rent-stabilization-public-support/blob/f806a04eeac4912d509bc9b051a95567582daa79/statements/campaigns/fair-rent-nyc/commercial-rent-stabilization/2025-11-10-greenpoint-avenue/jamie-burkart.md",
       "primary_source_url": null,
       "sha256": "a2535881084f27d11ddf1c5c39cb95917f0d51a13d983d5a117d189321ea0154"
+    },
+    {
+      "id": "record.statement.2026-08-15-cultural-space-rent-stabilization-story",
+      "title": "Jamie Burkart in the NYC Artist Coalition Cultural Space Rent Stabilization Story",
+      "kind": "canonical-reference",
+      "status": "maintained",
+      "canonical_path": "library/practices/civic-cultural-organizing/public-statements/2026-08-15-cultural-space-rent-stabilization-story.md",
+      "record_date": "2026-08-15",
+      "practice": "civic-cultural-organizing",
+      "project": "fair-rent-nyc",
+      "place": "new-york-city-and-instagram",
+      "source_type": "public-instagram-story",
+      "source_home": "canonical-external",
+      "publication_state": "public-source-already-published",
+      "summary": "NYC Artist Coalition Story combining Jamie Burkart's edited Wonderville remarks with a city-and-state call for cultural-space rent stabilization.",
+      "canonical_repository": "openhouse/commercial-rent-stabilization-public-support",
+      "canonical_commit": "42585897e2616f08d0751878a0a63a1d3180c1d2",
+      "canonical_record_path": "statements/campaigns/fair-rent-nyc/commercial-rent-stabilization/2026-08-15-nycartc-instagram-story-3964470891412306511/nyc-artist-coalition.md",
+      "canonical_record_url": "https://github.com/openhouse/commercial-rent-stabilization-public-support/blob/42585897e2616f08d0751878a0a63a1d3180c1d2/statements/campaigns/fair-rent-nyc/commercial-rent-stabilization/2026-08-15-nycartc-instagram-story-3964470891412306511/nyc-artist-coalition.md",
+      "primary_source_url": "https://www.instagram.com/stories/nycartc/3964470891412306511/",
+      "sha256": "6e50391dc3eccc445ce8149e2d62f71137c48c69679e8f37e45d288a9622dc5c"
     },
     {
       "id": "record.practice.recomposable-civic-cultural-systems",

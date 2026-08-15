@@ -17,6 +17,7 @@ and accountable relationships with public agencies.
 - [M.A.R.C.H. transparency, February 2019](public-statements/2019-02-11-march-transparency.md)
 - [Small-business assistance and open data, March 2019](public-statements/2019-03-18-small-business-open-data.md)
 - [Greenpoint public-event source lead, November 2025](public-statements/2025-11-10-greenpoint-source-gap.md)
+- [Cultural Space Rent Stabilization Story, August 2026](public-statements/2026-08-15-cultural-space-rent-stabilization-story.md)
 
 The complete texts are maintained in the issue-specific Commercial Rent
 Stabilization public-support archive. This Jamie-centered edition links to

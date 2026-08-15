@@ -223,6 +223,21 @@ const cases = [
   ["recomposable project system loses its stop rule", (records) => {
     const r = records.find((item) => item.data.id === "record.practice.recomposable-civic-cultural-systems");
     r.source = r.source.replace("## When not to reuse", "## Optional reuse");
+  }],
+  ["Story capture checksum drifts", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-15-cultural-space-rent-stabilization-story");
+    r.data.canonical_source_sha256 = "0".repeat(64);
+  }],
+  ["Story account publication becomes individual authorship", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-15-cultural-space-rent-stabilization-story");
+    r.data.account_authorship_scope = "jamie-sole-author-editor-publisher";
+  }],
+  ["Story tags become endorsements", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-15-cultural-space-rent-stabilization-story");
+    r.body = r.body.replace(
+      "tagged\naccounts and sponsor acknowledgements establish endorsement",
+      "every tagged account and sponsor endorsed the Story"
+    );
   }]
 ];
 

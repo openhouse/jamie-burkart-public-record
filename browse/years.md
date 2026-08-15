@@ -27,6 +27,7 @@ Generated from canonical records.
 
 ## 2026
 
+- [Jamie Burkart in the NYC Artist Coalition Cultural Space Rent Stabilization Story](../library/practices/civic-cultural-organizing/public-statements/2026-08-15-cultural-space-rent-stabilization-story.md) — NYC Artist Coalition Story combining Jamie Burkart's edited Wonderville remarks with a city-and-state call for cultural-space rent stabilization.
 - [Projects as a recomposable civic-cultural system](../library/practices/civic-cultural-organizing/recomposable-civic-cultural-systems/README.md) — Public-safe, evidence-tiered account of how technical modules, social protocols, public artifacts, and stewardship practices can be adapted across Jamie Burkart's projects.
 - [Sunday Dinner, WOW List, and NYC Artist Coalition synergy](../library/practices/civic-cultural-organizing/sunday-dinner-wow-list-nycac-synergy/README.md) — Public-safe synthesis of the recurring participation pattern across a hosted gathering, a distributed discovery platform, and a civic-cultural coalition.
 - [Commercial Rent Stabilization public-support archive implementation](../library/practices/public-interest-technology/campaign-memory-system.md) — Public repository organizing full-text support statements through campaign-first canonical homes, cross-cutting browse indexes, provenance, and executable checks.

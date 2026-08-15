@@ -1,0 +1,37 @@
+{
+  "run_id": "2026-08-15-nycartc-story-hill-climb",
+  "candidate_scope": "library canonical records with NYC Artist Coalition Story reference",
+  "source_commit": "42585897e2616f08d0751878a0a63a1d3180c1d2",
+  "source_media_sha256": "24808b127cd7af7bf0e804db0e27ec59b82d57d96ebf62a2f1e617ed6845caef",
+  "baseline": {
+    "records": 16,
+    "adversarial_mutations_detected": 26,
+    "adversarial_mutations_injected": 26
+  },
+  "candidate": {
+    "records": 17,
+    "adversarial_mutations_detected": 29,
+    "adversarial_mutations_injected": 29
+  },
+  "hill_climb": [
+    {
+      "failure_mode": "A mutable Story URL could become the only evidence after the Story expires.",
+      "improvement": "Pinned the canonical record to an immutable archive commit and bound its media to a SHA-256 checksum."
+    },
+    {
+      "failure_mode": "Publication through a coalition account could be inflated into sole individual editorial authorship.",
+      "improvement": "Added an explicit coalition-account publication scope and a mutation that rejects individual-authorship inflation."
+    },
+    {
+      "failure_mode": "Tags or sponsor acknowledgements could be misread as endorsements.",
+      "improvement": "Added a body-level evidence boundary and an adversarial mutation that detects its removal."
+    }
+  ],
+  "remaining_human_gates": [
+    "independent audio and timing review",
+    "quotation and reproduction rights",
+    "individual editorial authorship attribution",
+    "portfolio selection",
+    "photograph rights and consent"
+  ]
+}
