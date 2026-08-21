@@ -250,6 +250,28 @@ const cases = [
   ["Story transcript status regresses to supplied draft", (records) => {
     const r = records.find((item) => item.data.id === "record.statement.2026-08-15-cultural-space-rent-stabilization-story");
     r.data.transcript_state = "complete-supplied-voice-loyal-cut-independent-audio-review-pending";
+  }],
+  ["Reel capture checksum drifts", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-16-cultural-space-rent-stabilization-reel");
+    r.data.canonical_source_sha256 = "0".repeat(64);
+  }],
+  ["Reel sponsor acknowledgement becomes individual endorsement", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-16-cultural-space-rent-stabilization-reel");
+    r.body = r.body.replace(
+      "sponsor acknowledgements are coalition-account words, not newly recovered statements by each named official",
+      "every named official newly endorsed the Reel"
+    );
+  }],
+  ["Reel invitation becomes attendance proof", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-16-cultural-space-rent-stabilization-reel");
+    r.body = r.body.replace(
+      "invitation does not establish who later attended, spoke, consented, or endorsed legislation",
+      "invitation proves later attendance and endorsement"
+    );
+  }],
+  ["Reel is deduplicated into Story", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-16-cultural-space-rent-stabilization-reel");
+    r.data.distinct_publication_from_story = "false";
   }]
 ];
 

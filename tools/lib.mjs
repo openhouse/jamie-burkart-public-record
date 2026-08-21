@@ -129,6 +129,39 @@ export function validateModel(records, root = repoRoot, options = {}) {
         errors.push(`${rel}: Story final human listening gate missing`);
       }
     }
+
+    if (data.id === "record.statement.2026-08-16-cultural-space-rent-stabilization-reel") {
+      const expected = {
+        canonical_commit: "e23822538dd6a7464503df6c585dcc680d0cd823",
+        canonical_source_sha256: "91ad379f6edabeea1d83f6970e97917480b6aed5fa4a537de136fcea85107636",
+        decoded_audio_pcm_sha256: "bffd96151404c8d23bac2a5ba10dcc147a0a2215d98975ad17fe254f94fbaacd",
+        same_audio_as: "record.statement.2026-08-15-cultural-space-rent-stabilization-story",
+        distinct_publication_from_story: "true",
+        media_state: "canonical-external-checksum-bound",
+        transcript_state: "complete-editorially-reviewed-diarized-audio-caption-and-source-checked",
+        human_listening_approval: "pending-separate-gate",
+        account_authorship_scope: "coalition-account-publication-individual-editorial-authorship-not-established"
+      };
+      for (const [key, value] of Object.entries(expected)) {
+        if (data[key] !== value) errors.push(`${rel}: Reel ${key} boundary drifted`);
+      }
+      for (const [label, expression] of [
+        ["sponsor acknowledgement", /sponsor acknowledgements are coalition-account words, not newly recovered statements by each named official/],
+        ["invitation and attendance", /invitation does not establish who later attended, spoke, consented, or endorsed legislation/],
+        ["distinct publication", /same decoded audio[^.]*distinct publication/i],
+        ["human listening", /Final human\s+listening\/approval remains separate/]
+      ]) {
+        if (!expression.test(body)) errors.push(`${rel}: Reel ${label} boundary missing`);
+      }
+      const expectedTranscriptUrl = `https://github.com/openhouse/commercial-rent-stabilization-public-support/blob/${expected.canonical_commit}/sources/instagram/2026-08-16-nycartc-instagram-reel-DcHBB6Ix2Pd/transcript.reviewed.md`;
+      if (data.reviewed_transcript_url !== expectedTranscriptUrl) {
+        errors.push(`${rel}: Reel reviewed transcript reference drifted`);
+      }
+    }
+  }
+
+  if (!records.some((record) => record.data.id === "record.statement.2026-08-16-cultural-space-rent-stabilization-reel")) {
+    errors.push("missing August 16 Cultural Space Rent Stabilization Reel canonical reference");
   }
 
   if (!options.skipLinks) {
