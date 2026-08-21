@@ -32,6 +32,11 @@ Generated from canonical records.
 
 - [Sunday Dinner, WOW List, and NYC Artist Coalition synergy](../library/practices/civic-cultural-organizing/sunday-dinner-wow-list-nycac-synergy/README.md) — Public-safe synthesis of the recurring participation pattern across a hosted gathering, a distributed discovery platform, and a civic-cultural coalition.
 
+## new-york-city-and-instagram
+
+- [Jamie Burkart in the NYC Artist Coalition Cultural Space Rent Stabilization Story](../library/practices/civic-cultural-organizing/public-statements/2026-08-15-cultural-space-rent-stabilization-story.md) — NYC Artist Coalition Story combining Jamie Burkart's edited Wonderville remarks with a city-and-state call for cultural-space rent stabilization.
+- [Jamie Burkart in the NYC Artist Coalition Cultural Space Rent Stabilization Reel](../library/practices/civic-cultural-organizing/public-statements/2026-08-16-cultural-space-rent-stabilization-reel.md) — NYC Artist Coalition Reel carrying Jamie Burkart's Wonderville remarks into a public call for city-and-state cultural-space rent stabilization and acknowledgement of Fair Rent NYC legislative sponsors.
+
 ## new-york-city-council
 
 - [Jamie Burkart on Cabaret Law oversight and the Office of Nightlife](../library/practices/civic-cultural-organizing/public-statements/2017-06-19-cabaret-law-and-office-of-nightlife.md) — Official Council transcript testimony connecting dance freedom, cultural-space safety, trust, and the repeal of discriminatory regulation.

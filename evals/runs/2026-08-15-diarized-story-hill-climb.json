@@ -1,0 +1,38 @@
+{
+  "run_id": "2026-08-15-diarized-story-hill-climb",
+  "candidate_scope": "17 public records with the corrected diarized NYC Artist Coalition Story reference",
+  "source_commit": "ea5497dd910f3402c01e8b560b149d6674f951cc",
+  "source_media_sha256": "24808b127cd7af7bf0e804db0e27ec59b82d57d96ebf62a2f1e617ed6845caef",
+  "baseline": {
+    "records": 17,
+    "adversarial_mutations_detected": 29,
+    "adversarial_mutations_injected": 29,
+    "known_limit": "The reference pointed to the first archive commit and treated the supplied cut transcript as pending independent audio review."
+  },
+  "candidate": {
+    "records": 17,
+    "adversarial_mutations_detected": 32,
+    "adversarial_mutations_injected": 32
+  },
+  "hill_climb": [
+    {
+      "failure_mode": "A reference could report transcript completion without a content-addressed path to the reviewed transcript.",
+      "improvement": "Pinned the Story record and reviewed transcript to the exact archive commit and added a mutation that rejects link drift."
+    },
+    {
+      "failure_mode": "Editorial cross-source review could be mistaken for a completed human listening and approval gate.",
+      "improvement": "Separated transcript review state from human listening approval and added a mutation that rejects automatic approval."
+    },
+    {
+      "failure_mode": "The record could regress to the incomplete supplied cut after the archive restored additional speakers and corrected wording.",
+      "improvement": "Bound the expected transcript state to the corrected diarized source and added a regression mutation."
+    }
+  ],
+  "remaining_human_gates": [
+    "final human listening and transcript approval",
+    "quotation and reproduction rights",
+    "individual editorial authorship attribution",
+    "portfolio selection",
+    "photograph rights and consent"
+  ]
+}

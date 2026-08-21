@@ -19,6 +19,8 @@ Generated from canonical records.
 - [Jamie Burkart on SBJSA and commercial-tenant protections](../library/practices/civic-cultural-organizing/public-statements/2018-10-22-sbjsa-commercial-rent.md) — Official Council testimony supporting commercial-tenant protections as a defense of neighborhood businesses and cultural spaces.
 - [Jamie Burkart on small-business assistance and open data](../library/practices/civic-cultural-organizing/public-statements/2019-03-18-small-business-open-data.md) — Official Council testimony proposing usable open data that helps small businesses navigate legality, safety, licensing, and compliance.
 - [Greenpoint commercial-rent public-event source gap](../library/practices/civic-cultural-organizing/public-statements/2025-11-10-greenpoint-source-gap.md) — A working transcript exists in the issue archive, but public audio, attribution, and rights review are insufficient for promotion as a public source record here.
+- [Jamie Burkart in the NYC Artist Coalition Cultural Space Rent Stabilization Story](../library/practices/civic-cultural-organizing/public-statements/2026-08-15-cultural-space-rent-stabilization-story.md) — NYC Artist Coalition Story combining Jamie Burkart's edited Wonderville remarks with a city-and-state call for cultural-space rent stabilization.
+- [Jamie Burkart in the NYC Artist Coalition Cultural Space Rent Stabilization Reel](../library/practices/civic-cultural-organizing/public-statements/2026-08-16-cultural-space-rent-stabilization-reel.md) — NYC Artist Coalition Reel carrying Jamie Burkart's Wonderville remarks into a public call for city-and-state cultural-space rent stabilization and acknowledgement of Fair Rent NYC legislative sponsors.
 
 ## international-symposium-encounters
 

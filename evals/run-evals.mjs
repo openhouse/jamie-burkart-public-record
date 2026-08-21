@@ -223,6 +223,55 @@ const cases = [
   ["recomposable project system loses its stop rule", (records) => {
     const r = records.find((item) => item.data.id === "record.practice.recomposable-civic-cultural-systems");
     r.source = r.source.replace("## When not to reuse", "## Optional reuse");
+  }],
+  ["Story capture checksum drifts", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-15-cultural-space-rent-stabilization-story");
+    r.data.canonical_source_sha256 = "0".repeat(64);
+  }],
+  ["Story account publication becomes individual authorship", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-15-cultural-space-rent-stabilization-story");
+    r.data.account_authorship_scope = "jamie-sole-author-editor-publisher";
+  }],
+  ["Story tags become endorsements", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-15-cultural-space-rent-stabilization-story");
+    r.body = r.body.replace(
+      "tagged\naccounts and sponsor acknowledgements establish endorsement",
+      "every tagged account and sponsor endorsed the Story"
+    );
+  }],
+  ["Story reviewed transcript reference drifts", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-15-cultural-space-rent-stabilization-story");
+    r.data.reviewed_transcript_url = r.data.reviewed_transcript_url.replace(/blob\/[0-9a-f]{40}\//, "blob/main/");
+  }],
+  ["Story human listening gate is erased", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-15-cultural-space-rent-stabilization-story");
+    r.data.human_listening_approval = "approved";
+  }],
+  ["Story transcript status regresses to supplied draft", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-15-cultural-space-rent-stabilization-story");
+    r.data.transcript_state = "complete-supplied-voice-loyal-cut-independent-audio-review-pending";
+  }],
+  ["Reel capture checksum drifts", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-16-cultural-space-rent-stabilization-reel");
+    r.data.canonical_source_sha256 = "0".repeat(64);
+  }],
+  ["Reel sponsor acknowledgement becomes individual endorsement", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-16-cultural-space-rent-stabilization-reel");
+    r.body = r.body.replace(
+      "sponsor acknowledgements are coalition-account words, not newly recovered statements by each named official",
+      "every named official newly endorsed the Reel"
+    );
+  }],
+  ["Reel invitation becomes attendance proof", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-16-cultural-space-rent-stabilization-reel");
+    r.body = r.body.replace(
+      "invitation does not establish who later attended, spoke, consented, or endorsed legislation",
+      "invitation proves later attendance and endorsement"
+    );
+  }],
+  ["Reel is deduplicated into Story", (records) => {
+    const r = records.find((item) => item.data.id === "record.statement.2026-08-16-cultural-space-rent-stabilization-reel");
+    r.data.distinct_publication_from_story = "false";
   }]
 ];
 
